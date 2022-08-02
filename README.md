@@ -14,8 +14,8 @@ implementation of "Action Quality Assessment with Temporal Parsing Transformer"
 
 ### Dataset Preparation
 - Please download the dataset from the [[link]](https://durhamuniversity-my.sharepoint.com/:u:/g/personal/fsvd68_durham_ac_uk/EfCexAQT19xArquObWijcaAB3xgRUpps50vfbezDh9wgAA?e=OOuVUH), and unzip the file. (the processed data is based on this [repo](https://github.com/yuxumin/CoRe))
-1. put the folder named "data_preprocessed" in ./data
-2. put the file named "data_preprocessed/model_rgb.pth" in ./data
+- put the folder named "data_preprocessed" in ./data
+- put the file named "data_preprocessed/model_rgb.pth" in ./data
 
 The data structure should be:
 ```
