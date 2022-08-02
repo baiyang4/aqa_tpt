@@ -20,32 +20,31 @@ implementation of "Action Quality Assessment with Temporal Parsing Transformer"
 The data structure should be:
 ```
 $DATASET_ROOT
-├── data/
-    ├── model_rgb.pth
-    ├── data_preprocessed/
-        ├── MTL_AQA/
-            ├── frames_long
-                ├── 01_01/
-                    ├── 00017977.jpg
-                    ...
+├── model_rgb.pth
+├── data_preprocessed/
+    ├── MTL_AQA/
+        ├── frames_long
+            ├── 01_01/
+                ├── 00017977.jpg
                 ...
-                └── 07_25/
-                    ├── 00040170.jpg
-                    ...
-            ├── info
-                ├── final_annotations_dict_with_dive_number
-                ├── test_split_0.pkl
-                └── train_split_0.pkl
-        ├── AQA_7/
-            ├── frames
-                ├── diving-out
-                    ├── 001
-                        ├── img_00001.jpg
-                        ...
+            ...
+            └── 07_25/
+                ├── 00040170.jpg
                 ...
-            ├── info
-                ├── split_4_test_list.mat
-                ├── split_4_train_list.mat
+        ├── info
+            ├── final_annotations_dict_with_dive_number
+            ├── test_split_0.pkl
+            └── train_split_0.pkl
+    ├── AQA_7/
+        ├── frames
+            ├── diving-out
+                ├── 001
+                    ├── img_00001.jpg
+                    ...
+            ...
+        ├── info
+            ├── split_4_test_list.mat
+            ├── split_4_train_list.mat
 ```
 
 ### how to train
