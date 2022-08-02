@@ -9,5 +9,5 @@ implementation of "Action Quality Assessment with Temporal Parsing Transformer"
 
 # how to train
 ```
-train_pairencode1_decoder_1selfatt_self8head_ffn_sp_new.py --epoch_num=250 --dataset=MLT_AQA --bs_train=3 --bs_test=3 --use_pretrain=False --num_cluster=7 --margin_factor=2 --encode_video=False --hinge_loss=True --multi_hinge=True --d_model=512 --d_ffn=512 --exp_name=sp_new_103_7_2
+python -u -m torch.distributed.launch --nproc_per_node=8 train_pairencode1_decoder_1selfatt_self8head_ffn_sp_new.py --epoch_num=250 --dataset=MLT_AQA --bs_train=3 --bs_test=3 --use_pretrain=False --num_cluster=7 --margin_factor=2 --encode_video=False --hinge_loss=True --multi_hinge=True --d_model=512 --d_ffn=512 --exp_name=sp_new_103_7_2
 ```
