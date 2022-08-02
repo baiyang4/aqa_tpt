@@ -1,6 +1,10 @@
 # aqa_tpt
 implementation of "Action Quality Assessment with Temporal Parsing Transformer"
 
+## todo
+- [ ] pretrain model on MTL-AQA
+- [ ] test script
+
 ## Usage 
 
 ### Requirement
